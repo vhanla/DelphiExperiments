@@ -1,0 +1,30 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 384
+  ClientWidth = 640
+  Padding.Left = 9.000000000000000000
+  Padding.Top = 9.000000000000000000
+  Padding.Right = 9.000000000000000000
+  Padding.Bottom = 9.000000000000000000
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Size.Width = 622.000000000000000000
+    Size.Height = 366.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object GlowEffect1: TGlowEffect
+      Softness = 0.400000005960464500
+      GlowColor = xFF363636
+      Opacity = 0.899999976158142100
+    end
+  end
+end
